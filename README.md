@@ -12,7 +12,7 @@ It is a simple script, which takes the input syntax of png2ico, converts it to t
 # Tutorial
 
 To keep things simple, the source file is an ordinary Windows batch file.
-There are several ways to convert a .bat file into a Windows executable, for example the [Bat To Exe Converter](http://www.f2ko.de/en/b2e.php)
+There are several ways to convert a .bat file into a Windows executable, for example the Bat-To-Exe-Converter [official](https://github.com/99fk/Bat-To-Exe-Converter-Downloader) | [Web Archive](https://web.archive.org/web/20190305143024/http://f2ko.de/en/b2e.php) | [GitHub mirror](https://github.com/tokyoneon/B2E)
 
 To avoid PATH bindings, it is possible to include ImageMagick's convert.exe into the generated executable.
 convert.exe of ImageMagick version 7.0.8-11 Q16 is available within this repo. It can, of course, easily exchanged.
