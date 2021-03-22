@@ -10,11 +10,11 @@ set icon=
 set images=
 
 :loop 
-set arg=%1
-if "%arg%" == "" goto args_done
-if /i "%arg%" == "--color" set "color=%2"
-if /i "%arg%" == "--rcfile" set "rcfile=%2"
-if /i "%arg%" == "--help" set "help=true"
+set arg="%~1"
+if %arg% == "" goto args_done
+if /i %arg% == "--color" set "color=%2"
+if /i %arg% == "--rcfile" set "rcfile=%2"
+if /i %arg% == "--help" set "help=true"
 if not x%arg:.ico=%==x%arg% set "icon=%arg%"
 if not x%arg:.png=%==x%arg% set "images=%images% %arg%"
 shift
